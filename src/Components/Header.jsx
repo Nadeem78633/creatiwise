@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom";
 import React, { useState, useCallback } from "react";
 import { AppBar, Box, Toolbar, Menu, MenuItem, Container } from "@mui/material";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
-import Wrapper from "../../assets/wrappers/Header";
-import logo from "../../assets/icons/logo.png";
+import Wrapper from "../assets/wrappers/Header";
+import logo from "../assets/icons/logo.png";
 
 const navLinks = [
   { to: "/", label: "Home" },

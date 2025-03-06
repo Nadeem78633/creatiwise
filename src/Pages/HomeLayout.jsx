@@ -1,5 +1,5 @@
 import React from "react";
-import { Header,Footer } from "../Components/Home";
+import { Header,Footer } from "../Components";
 import { Outlet } from 'react-router-dom'
 import { Box, useMediaQuery } from "@mui/material";
 import Wrapper from "../assets/wrappers/HomeLayout";

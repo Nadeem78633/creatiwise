@@ -1,8 +1,9 @@
 import React from "react";
 import Home from "./Pages/Home";
-import { Error, About, Projects, Contacts, HireMe } from "../src/Components/Home";
+import { About, Projects, Contacts, HireMe } from "../src/Components/Home";
 import HomeLayout from "./Pages/HomeLayout";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Error } from "./Components";
 
 const router = createBrowserRouter([
   {
